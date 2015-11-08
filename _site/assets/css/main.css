@@ -379,11 +379,11 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
     text-indent: 101%;
     white-space: nowrap;
     max-width: 135px;
-    background-image: url(/assets/img/dm-logo.svg);
+    background-image: url(/assets/img/dm-logo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 80px;
+    height: 50px;
     padding: 0;
     margin: 0; }
   .home-wrap header .site-nav ul {
@@ -448,8 +448,8 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
     .home-wrap header .site-nav {
       display: none; }
     .home-wrap header .logo {
-      height: 50px;
-      max-width: 80px; }
+      height: 35px;
+      width: 100px; }
     .home-wrap header .mobile-nav-toggle {
       display: flex; }
   .home-wrap .mobile-nav.is-open {
