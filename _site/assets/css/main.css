@@ -446,7 +446,7 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
       flex-direction: row;
       align-items: center; }
     .home-wrap header .logo {
-      max-width: 120px; }
+      max-width: 80px; }
     .home-wrap header .site-nav {
       display: none; }
     .home-wrap header .logo {
