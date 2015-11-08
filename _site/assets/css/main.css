@@ -628,7 +628,7 @@ section.social-media {
     height: 50px;
     width: 50px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 20%;
+    border-radius: 25%;
     background-image: url(/assets/img/icon-fb.jpg); }
   section.social-media .twt {
     margin: 50px auto;
@@ -639,7 +639,7 @@ section.social-media {
     height: 50px;
     width: 50px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 20%;
+    border-radius: 25%;
     background-image: url(/assets/img/icon-twitter.jpg); }
 @media(max-width: 640px) {
   section.social-media::after {
