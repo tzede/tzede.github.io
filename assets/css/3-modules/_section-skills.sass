@@ -1,0 +1,105 @@
+section.skills
+	background:
+		image: url(/assets/img/skills-image.jpg)
+		size: cover
+
+	h3
+		text-align: center
+		color: #ffffff
+		@extend %all-font
+		font-size: 22px
+		line-height: 30px
+		letter-spacing: 0.025em
+		margin-right: auto
+		margin-left: auto
+
+	.skill-lockup
+		margin-left: 140px
+		max-width: 640px
+		margin-left: auto
+		margin-right: auto
+		+clearfix
+		
+		.unit-bottom
+			margin-bottom: 110px
+		
+		.unit-top
+			padding-top: 55px
+
+
+		.skill-unit
+			width: 300px
+			float: left
+			margin-top: 40px
+			margin-right: 20px
+
+			
+
+			.skill-name
+				color: #ffffff
+				@extend %all-font
+				font-size: 14px
+				margin-left: 2px
+				letter-spacing: 0.025em
+
+
+			.skill-bar
+				font-size: 0
+				background-color: $bar-color
+
+
+				span
+					display: inline-block
+					width: 100%
+					height: 5px
+					background-color: $bar-fill
+
+
+				.color1
+					width: 75%
+					height: 5px
+
+				.color2					
+					width: 85%
+					height: 5px
+
+				.color3
+					width: 20%
+					height: 5px
+
+				.color4					
+					width: 20%
+					height: 5px
+				
+				.color5
+					width: 95%
+					height: 5px
+
+				.color6					
+					width: 90%
+					height: 5px
+					
+	
+	@media (max-width: 800px)
+		.skill-lockup
+			max-width: 320px
+			margin-right: auto
+			margin-left: auto	
+
+			.unit-top
+				padding-top: 0px
+			
+			.unit-bottom
+				margin-bottom: 0px
+
+			.mobile-top
+				padding-top: 55px
+
+			.mobile-bottom
+				margin-bottom: 110px
+
+		
+			
+
+			
+			

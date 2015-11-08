@@ -1,9 +1,38 @@
+---
+---
+
 <!DOCTYPE html>
-<html>
-	<body>
-		asdfadsfa
+<html lang="en">
+	<head>
+	   <title>Danut Mihalca</title>
+	   <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <link rel="stylesheet" href="/assets/css/main.css" />
+	</head>
+<body>
 
-	</body>
+
+<div class = "home-wrap">
+
+	{% include header.html %}
+  
+   <div class = "home-sections">
+
+   		
+		<!-- all sectios go here -->  
+		{%include section-home.html%}
+		{%include section-about.html%}  
+		{%include section-skills.html%}
+		{%include section-passions.html%}
+		{%include section-social-media.html%} 
+		{%include section-email.html%}      
 
 
+	</div>
+</div>
+
+
+<script src="/assets/js/jquery-2.1.1.min.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
+</body>
 </html>
