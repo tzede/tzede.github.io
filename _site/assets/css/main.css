@@ -356,7 +356,7 @@ td,
 th {
   padding: 0; }
 
-section.home p:first-child, section.home p, section.about p, section.skills h3, section.skills .skill-lockup .skill-unit .skill-name, section.passions h3, section.email p {
+.home-wrap header .site-nav ul, .home-wrap .mobile-nav ul, section.home p:first-child, section.home p, section.about p, section.skills h3, section.skills .skill-lockup .skill-unit .skill-name, section.passions h3, section.email p {
   font-family: Sitka Subheading;
   font-style: italic;
   font-weight: bold; }
@@ -387,6 +387,9 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
     padding: 0;
     margin: 0; }
   .home-wrap header .site-nav ul {
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    line-height: 1.25;
     list-style: none;
     margin: 20px 0;
     padding: 0 20px 0 0;
@@ -427,6 +430,9 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
   transform: translateY(-100%);
   transition: all 0.4s ease-in-out; }
   .home-wrap .mobile-nav ul {
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    line-height: 1.25;
     list-style: none;
     margin: 0;
     padding: 0; }
