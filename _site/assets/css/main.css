@@ -445,6 +445,8 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
       left: auto;
       flex-direction: row;
       align-items: center; }
+    .home-wrap header .logo {
+      max-width: 120px; }
     .home-wrap header .site-nav {
       display: none; }
     .home-wrap header .logo {
@@ -564,7 +566,7 @@ section.skills {
           height: 5px; }
   @media (max-width: 800px) {
     section.skills .skill-lockup {
-      max-width: 320px;
+      max-width: 300px;
       margin-right: auto;
       margin-left: auto; }
       section.skills .skill-lockup .unit-top {
