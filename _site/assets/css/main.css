@@ -448,7 +448,7 @@ section.home p:first-child, section.home p, section.about p, section.skills h3, 
     .home-wrap header .site-nav {
       display: none; }
     .home-wrap header .logo {
-      height: 50px; }
+      height: 45px; }
     .home-wrap header .mobile-nav-toggle {
       display: flex; }
   .home-wrap .mobile-nav.is-open {
