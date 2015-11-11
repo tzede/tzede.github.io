@@ -1,0 +1,34 @@
+section.about
+    background: 
+        image: url(/assets/img/about-image.jpg)
+        size: cover
+
+    p
+        color: #eeeeee
+        @extend %all-font
+        font-size: 17px
+        line-height: 30px
+        letter-spacing: 0.025em
+        padding-top: 60px
+        padding-bottom: 25px
+        margin: 0
+        text-align: center
+
+    .img-pos
+        max-width: 620px
+        display: flex
+        flex-direction: rows
+        justify-content: center
+        margin: 0 auto
+        margin-top: 5px
+ 
+        .my-img
+            background: 
+                image: url(/assets/img/md-img.png)
+            +size(169px)
+            border-radius: 50%
+            margin: 0
+            padding: 0
+
+        
+

@@ -1,0 +1,53 @@
+.home-sections .passions
+	padding: 0px
+
+section.passions
+	
+	.my-teams
+		background:
+			image: url(/assets/img/passions-image-left.jpg)
+			size: cover
+		
+	.my-movies
+		background:
+			image: url(/assets/img/passions-image-right.jpg)
+			size: cover
+		
+    
+
+	.img-link
+		float: left
+		width: calc(50% - 14px)
+		display: block
+		border: 2px solid white
+		box-shadow: 0px 3px 10px rgba(0,0,0,0.2)
+		margin: 5px
+		img
+			width: 100%
+			display: block
+		
+		&:hover
+			transform: scale(1.1)
+
+
+	h3
+		text-align: center
+		@extend %all-font
+		color: #010101
+		font-size: 22px
+		letter-spacing: 0.025em
+		margin-top: 20px
+		margin-bottom: 30px
+
+	.clearfix
+		clear: both
+		margin-bottom: 20px
+
+	@media(max-width: 640px)
+		.col-1
+			margin: 0px
+		
+		h3
+			margin-top: 0px
+			padding-top: 20px
+			
