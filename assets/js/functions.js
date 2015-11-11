@@ -1,6 +1,6 @@
 $(function() {
   mobileNav();
-  smoothScroll(400);
+  smoothScroll(4000);
 });
 
 
